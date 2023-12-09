@@ -1,0 +1,39 @@
+.container {
+    width: 100vw;
+    height: 100vh;
+    background: url('./../../../public/Area1.png') center/cover no-repeat;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.const {
+    display: flex;
+    flex-direction: column;
+    color: rgb(251, 251, 251);
+    z-index: 11;
+    align-items: center;
+}
+
+.container img {
+    width: 70%;
+    position: absolute;
+    z-index: 9;
+}
+
+@media (max-width: 1000px) {
+    .container {
+        align-items: center;
+    }
+}
+
+.button {
+    margin-top: 300px;
+    z-index: 10;
+    color: white;
+    background-color: transparent;
+    padding: 10px 20px;
+    border: 2px solid white;
+    border-radius: 10px;
+    width: 150px;
+}
