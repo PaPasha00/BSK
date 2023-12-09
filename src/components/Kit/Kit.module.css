@@ -15,6 +15,11 @@
     align-items: center;
 }
 
+.const p {
+    font-size: 20px;
+    font-weight: 600;
+}
+
 .container img {
     width: 70%;
     position: absolute;
